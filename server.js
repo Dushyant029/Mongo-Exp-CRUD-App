@@ -20,7 +20,7 @@ connectDB();
 // parse request to body-parser
 app.use(bodyparser.urlencoded({ extended : true}))
 
-// set view engine
+// set view engines
 app.set("view engine", "ejs")
 //app.set("views", path.resolve(__dirname, "views/ejs"))
 
